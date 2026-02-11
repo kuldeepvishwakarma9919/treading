@@ -1,0 +1,10 @@
+@media only screen and (max-width: 768px) {
+
+    .footer-address {
+        text-align: left !important;
+    }
+
+    .footer-logo{
+         text-align: left !important;
+    }
+}

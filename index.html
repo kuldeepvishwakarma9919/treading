@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compliance & Disclosure | Booming Bulls</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+       
+
+        /* --- Animated Cards --- */
+        .card {
+            background: #0c0c0c;
+            border: 1px solid #222;
+            border-radius: 24px;
+            padding: clamp(20px, 5vw, 40px);
+            margin-bottom: 40px;
+            animation: fadeInUp 1s ease forwards;
+            transition: border 0.4s ease;
+        }
+
+        .card:hover {
+            border-color: #444;
+        }
+
+        /* --- Responsive Tables --- */
+        .table-container {
+            width: 100%;
+            overflow-x: auto;
+            margin-top: 25px;
+            border-radius: 12px;
+            border: 1px solid #1a1a1a;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            color: #ccc;
+            min-width: 700px;
+        }
+
+        th {
+            background-color: #151515;
+            color: #fff;
+            padding: 20px;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            letter-spacing: 1px;
+            border-bottom: 2px solid #222;
+        }
+
+        td {
+            padding: 18px;
+            border-bottom: 1px solid #1a1a1a;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        tr:hover td {
+            background: #111;
+            color: #ff0000;
+        }
+
+        .note {
+            font-size: 0.85rem;
+            color: #666;
+            margin: 20px 0;
+            line-height: 1.6;
+        }
+
+        /* --- Footer & CTA Animations --- */
+      
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="nav-content">
+             <a href="index.html" class="text-white text-decoration-none" style="text-decoration: none;"><span style="font-family: 'Syne'; font-size: 1.5rem; font-weight: bold; color: white;">BOOMING BULLS</span></a>
+            <a href="#" class="btn-access">Get Access Now 🔒</a>
+        </div>
+    </nav>
+
+    <div class="wrapper">
+        <h1>Compliance & Disclosure</h1>
+
+        <div class="card" style="animation-delay: 0.2s;">
+            <h3 style="font-family: 'Syne'; font-size: 1.5rem; color: #ff0000;">Complaint Data</h3>
+            <p style="color: #888;">Last updated: 7th Jan 2026 | Month ending: Dec 2025</p>
+
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Received from</th>
+                            <th>Pending (Last Month)</th>
+                            <th>Received</th>
+                            <th>Resolved*</th>
+                            <th>Total Pending</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Directly from Investors</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+                        <tr><td>SEBI (Scores)</td><td>0</td><td>1</td><td>1</td><td>0</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <p class="note">^Average Resolution time is calculated based on days taken to resolve each complaint.</p>
+        </div>
+
+        <div class="card" style="animation-delay: 0.4s;">
+            <h3 style="font-family: 'Syne';">Monthly Disposal Trends</h3>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Sr.</th>
+                            <th>Month</th>
+                            <th>Received</th>
+                            <th>Resolved*</th>
+                            <th>Pending</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>1.</td><td>December, 2025</td><td>1</td><td>1</td><td>0</td></tr>
+                        <tr><td>2.</td><td>November, 2025</td><td>0</td><td>0</td><td>0</td></tr>
+                        <tr><td>3.</td><td>October, 2025</td><td>0</td><td>0</td><td>0</td></tr>
+                        <tr><td>4.</td><td>September, 2025</td><td>0</td><td>0</td><td>0</td></tr>
+                        <tr><td>5.</td><td>August, 2025</td><td>0</td><td>0</td><td>0</td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="card" style="animation-delay: 0.6s;">
+            <h3 style="font-family: 'Syne';">Annual Disposal Trends</h3>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Sr.</th>
+                            <th>Financial Year</th>
+                            <th>Carried Forward</th>
+                            <th>Received</th>
+                            <th>Resolved*</th>
+                            <th>Pending##</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>1.</td><td>2024-25</td><td>0</td><td>1</td><td>1</td><td>0</td></tr>
+                        <tr><td>2.</td><td>2025-26</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+                        <tr style="background: #111; font-weight: bold;">
+                            <td colspan="2" style="color: #ff0000;">GRAND TOTAL</td>
+                            <td>0</td><td>1</td><td>1</td><td>0</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="cta-section">
+            <h2 style="font-size: 2.5rem; font-family: 'Syne'; margin: 0;">Not ready to commit?</h2>
+            <p style="font-size: 1.2rem; color: #888;">Start your journey for free today!</p>
+            <div class="btn-group">
+                <a href="https://t.me/boomingbullsfree" target="_blank" class="btn-red">Join FREE Telegram Channel</a>
+                <a href="#" class="btn-outline">Unlock Premium Access 🔒</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-links">
+                <h4 style="color: #fff;">Quick Links</h4>
+                <a href="#">Investor Charter</a>
+                <a href="#">SCORES Website</a>
+                <!-- <a href="#">ODR Portal</a>
+                <a href="#">Grievance Redressal</a>
+                <a href="#">Compliance Audit</a> -->
+                <a href="term-condition.html">Term And Conditions</a>
+                <a href="privacy-policy.html">Privacy And Policy</a>
+            </div>
+
+            <div style="text-align: center;">
+                <span style="font-family: 'Syne'; font-weight: bold; font-size: 1.2rem;">BOOMING BULLS</span>
+                <p style="color: #888; font-size: 0.9rem; margin-top: 15px;">Empowering traders with precision and discipline.</p>
+            </div>
+
+            <div style="text-align: right;" class="footer-address">
+                <h4 style="color: #fff;">Contact Us</h4>
+                <p>Paltan Chawni Aliganj Lucknow</p>
+                <p>BSE No: 6176 | INH000016348</p>
+                <p style="color: #ff0000; font-weight: bold;">+91 9517048512</p>
+                <p>kuldeep.helps@gmail.com</p>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2026 Booming Bulls Finserv Pvt Ltd. All Rights Reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
